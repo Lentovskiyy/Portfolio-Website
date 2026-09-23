@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4, h5, h6, p, span {
+    font-size: 1.2rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Reserves space for your fixed header (~80px offset) */
+    scroll-padding-top: 5rem;
+  }
+}
